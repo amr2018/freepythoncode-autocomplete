@@ -1,11 +1,18 @@
-# FreePythonCode Autocomplete
-A standalone Python autocomplete plugin for Sublime Text 4 using Jedi.
+# 🐍 FreePythonCode Autocomplete
 
-## Features
-- Dynamic autocomplete for Python libraries.
-- No external Python installation required (bundled with Jedi).
-- Works out of the box.
+A lightweight, standalone Python autocompletion plugin for **Sublime Text 4**. 
 
-## Installation
-Currently manual installation:
-1. Clone this repo into your Sublime Text `Packages` folder.
+## Why this plugin?
+- **Zero Configuration**: No need to install Python or Pip on your system.
+- **Standalone**: Comes bundled with `Jedi` and `Parso`.
+- **Fast**: Uses Sublime's Python 3.8 environment for optimal performance.
+
+## How it works
+The plugin automatically detects the Python context and provides intelligent suggestions for classes, functions, and variables using the powerful Jedi engine.
+
+## Installation (Manual)
+1. Open Sublime Text.
+2. Go to `Preferences` -> `Browse Packages...`
+3. Clone this repository into that folder:
+   ```bash
+   git clone [https://github.com/amr2018/freepythoncode-autocomplete.git](https://github.com/amr2018/freepythoncode-autocomplete.git)
