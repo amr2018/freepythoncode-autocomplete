@@ -1,3 +1,4 @@
+
 import sublime
 import sublime_plugin
 import os
@@ -17,9 +18,11 @@ class FreepythoncodeAutocomplete(sublime_plugin.EventListener):
             import jedi
             
            
+            user_home = os.environ.get('USERPROFILE') or os.path.expanduser("~")
+            
             external_paths = [
-                r"C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\site-packages",
-                r"C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib"
+                os.path.join(user_home, r"AppData\Local\Programs\Python\Python313\Lib\site-packages"),
+                os.path.join(user_home, r"AppData\Local\Programs\Python\Python313\Lib")
             ]
 
             code = view.substr(sublime.Region(0, view.size()))
