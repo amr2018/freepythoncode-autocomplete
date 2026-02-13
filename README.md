@@ -19,6 +19,20 @@ The plugin automatically detects the Python context and provides intelligent sug
    git clone https://github.com/amr2018/freepythoncode-autocomplete.git
 
 
+---
+
+## 💎 Credits & Acknowledgments
+
+This project wouldn't be possible without the amazing open-source libraries and support:
+
+* **[Jedi](https://github.com/davidhalter/jedi)** - The core engine for Python autocompletion and static analysis.
+* **[Parso](https://github.com/davidhalter/parso)** - The Python parser used by Jedi for understanding code structure.
+* **[Sublime Text](https://www.sublimetext.com/)** - The legendary editor that we all love and strive to improve.
+* **Gemini (Google AI)** - For technical assistance, brainstorming, and helping in refining the code and documentation for this project.
+
+Special thanks to the open-source community for maintaining the tools that make independent development possible. 🚀
+
+
 ## Support the Project ☕
 If you find this plugin helpful and want to support its development, you can buy me a coffee!
 
