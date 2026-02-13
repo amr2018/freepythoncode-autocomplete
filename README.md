@@ -1,6 +1,7 @@
 # 🐍 FreePythonCode Autocomplete
 
 A lightweight, standalone Python autocompletion plugin for **Sublime Text 4**. 
+freepythoncode-autocomplete: Bringing the Brains back to Sublime Text
 
 ## Why this plugin?
 - **Zero Configuration**: No need to install Python or Pip on your system.
