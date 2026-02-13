@@ -15,7 +15,7 @@ The plugin automatically detects the Python context and provides intelligent sug
 2. Go to `Preferences` -> `Browse Packages...`
 3. Clone this repository into that folder:
    ```bash
-   git clone [https://github.com/amr2018/freepythoncode-autocomplete.git](https://github.com/amr2018/freepythoncode-autocomplete.git)
+   git clone https://github.com/amr2018/freepythoncode-autocomplete.git
 
 
 ## Support the Project ☕
