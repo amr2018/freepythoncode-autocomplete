@@ -16,3 +16,9 @@ The plugin automatically detects the Python context and provides intelligent sug
 3. Clone this repository into that folder:
    ```bash
    git clone [https://github.com/amr2018/freepythoncode-autocomplete.git](https://github.com/amr2018/freepythoncode-autocomplete.git)
+
+
+## Support the Project ☕
+If you find this plugin helpful and want to support its development, you can buy me a coffee!
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/freepythoncode)
